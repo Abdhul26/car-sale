@@ -1,0 +1,14 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
+@import '../../node_modules/react-toastify/dist/ReactToastify.css';
+
+.modal.show .modal-dialog {
+    transform: translateY(50%);
+}
+.react-bs-table-container {
+    width: 98%;
+    min-width: 900px;
+    tbody tr td:last-child {
+        white-space: normal;
+    }
+}

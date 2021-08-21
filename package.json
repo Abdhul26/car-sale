@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "build:production": "cd ./frontend && yarn install && yarn run build && rm -rf ./node_modules && cd ../backend && yarn install",
+    "start:production": "cd ./backend && yarn run reset:production && yarn run start"
+  }
+}
